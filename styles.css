@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #search-input:focus {
+    outline: none;
+    border-color: #666;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-left: 8px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .carousel {
+    margin-top: 40px;
+  }
+  
+  .carousel h2 {
+    text-align: center;
+  }
+  
+  .carousel-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .product-list {
+    margin-top: 40px;
+  }
+  
+  .product-list h2 {
+    text-align: center;
+  }
+  
+  .product-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-list li {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .product-list li img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-list li h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .product-list li p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .product-details {
+    margin-top: 40px;
+  }
+  
+  .product-details h2 {
+    text-align: center;
+  }
+  
+  .product-details .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .product-details img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .search-results {
+    margin-top: 40px;
+  }
+  
+  .search-results h2 {
+    text-align: center;
+  }
+  
+  .search-results ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .search-results li {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .search-results li img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .search-results li h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .search-results li p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
